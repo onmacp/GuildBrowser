@@ -15,6 +15,10 @@
 		03AC053617FD0414008053CB /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AC053417FD0414008053CB /* character.json */; };
 		03AC053717FD0414008053CB /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = 03AC053517FD0414008053CB /* guild.json */; };
 		03AC053917FD046E008053CB /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AC053817FD046E008053CB /* CharacterTests.m */; };
+		03AC053A18003B69008053CB /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
+		03AC053B18003B69008053CB /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
+		03AC053C18003B69008053CB /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
+		03AC053D18003B69008053CB /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -587,6 +591,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AC053A18003B69008053CB /* Character.m in Sources */,
+				03AC053B18003B69008053CB /* Guild.m in Sources */,
+				03AC053C18003B69008053CB /* Item.m in Sources */,
+				03AC053D18003B69008053CB /* WoWUtils.m in Sources */,
 				03AC053217FABC8E008053CB /* WowUtilsTests.m in Sources */,
 				03AC053917FD046E008053CB /* CharacterTests.m in Sources */,
 			);
