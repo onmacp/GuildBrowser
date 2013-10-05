@@ -43,7 +43,7 @@
     
     _characterDetailJson = json;
 }
-
+ 
 -(void)tearDown
 {
     // 6
